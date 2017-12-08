@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-jinja",
+  "name": "@blink1073/eslint-plugin-jinja",
   "version": "0.1.0",
   "description": "This plugin treats Jinja template expressions as Javascript literals and ignores template statements and comments",
   "main": "lib/index.js",
@@ -35,6 +35,6 @@
     "eslint": "^2.2.0"
   },
   "peerDependencies": {
-    "eslint": "^0.23.0 || ^1.0.0 || ^2.0.0"
+    "eslint": "^4.0.0"
   }
 }

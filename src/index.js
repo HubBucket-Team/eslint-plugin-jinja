@@ -29,10 +29,13 @@ const processHTML = {
   }
 };
 
+export
+const processors = {
+  '.js': processHTML,
+  '.html': processHTML,
+  '.htm': processHTML
+};
+
 export default {
-  processors: {
-    '.js': processHTML,
-    '.html': processHTML,
-    '.htm': processHTML
-  }
+  processors
 };
